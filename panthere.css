@@ -1,0 +1,126 @@
+img{
+	float: left;
+	height: 200px;
+}
+h1{
+	text-transform: uppercase;
+	text-align:center;
+	color: grey;
+	border-bottom: 1px ridge grey;
+	box-shadow:3px 3px grey;
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 55px;
+	margin-left: 5%;
+}
+li a{
+	text-decoration:none;
+	color: white;
+	text-transform: uppercase;
+}
+nav{
+	background-color: grey;
+	padding-top: 0.01em;
+	padding-bottom: 0.01em;
+	width: 75%;
+	margin-left: 200px
+}
+section p{
+	font-style: italic;
+	color: grey;
+	margin-left: 200px;
+	width: 80%;
+}
+section a, footer a{
+	color: black;
+}
+h2{
+	color:grey;
+	font-style: italic;
+	border-bottom: 1px grey dashed;
+}
+p{
+	padding-bottom: 130px;
+	width: 65%;
+	color: grey;
+}
+.lire{
+	display: none;
+}
+.exc{
+	padding: 0;
+}
+img{
+	margin-right: 30px;
+	margin-left: 120px;
+}
+@media all and (min-width: 400px) and (max-width:800px) {
+	p, .exc{
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+		padding: 0
+	}
+	img{
+		float: top;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav{
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		background-color:white;
+	}
+	nav a{
+		text-transform: none;
+	}
+	nav li{
+		padding: 0;
+	}
+	ul li{
+		margin: 0;
+	}
+	li{
+		background-color: grey
+	}
+ }
+@media screen and (max-width: 400px){
+nav{
+	display: none;
+	}
+
+p, .exc{
+	margin-left: 0;
+	width: 90%;
+	padding: 0;
+	}
+img{
+	margin-left: 0;
+	float: none;
+	width: 250px;
+	}
+.lire{
+	display: inline-block;
+	margin-left: 100px;
+	background-color: grey;
+	color: white;
+	text-decoration:none;
+	padding: 2px
+}
+.lire #disp{
+	display:inline-block; 
+}
+p{
+	display: none;
+}
+#app{
+	display: block;
+}
+.leon:hover #disp{
+	display: inline;
+}
+
+}
